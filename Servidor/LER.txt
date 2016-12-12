@@ -1,0 +1,9 @@
+Para compilar o servidor, utilizar:
+g++ -std=c++11 servidor.cpp com_serv.cpp -lpthread -lboost_system -o servidor
+
+Correr o servidor: ./servidor
+
+Para compilar o cliente, utilizar:
+g++ -std=c++11 cliente.cpp -lpthread -lboost_system -o cliente
+
+Correr o cliente com: ./cliente <ip do host>

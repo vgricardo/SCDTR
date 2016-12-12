@@ -1,0 +1,6 @@
+O script nc.m permite enviar referências para o Arduino e ler a saída/atuação do sistema.
+A referência enviada é uma string com OBRIGATORIAMENTE 3 carateres. Ex. Ref = 1 => '001'; Ref = 50 => '050'.
+Os gráficos são feitos automaticamente pelo programa.
+
+(Pelo menos em teoria. O código sofreu tantas alterações e fez tantas coisas (não era para entregar, era apenas para nós
+usarmos) que a versão final pode já nem fazer isso.)
